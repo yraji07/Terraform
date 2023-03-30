@@ -1,3 +1,7 @@
+# Introduction:
+----------------
+There are two types of file local and remote we are checking whether the file is allow
+To configure a backend, add a nested backend block within the top-level terraform block. The following example configures the remote backend. There are some important limitations on backend configuration: A configuration can only provide one backend block.
 # Pre-requests: 
 --------------
 * vscode
