@@ -87,3 +87,6 @@ terraform init (initilize the provider)
 terraform validate (validate the structure of whole file weather the file is valid or not)
 terraform apply (applies the execution part it will show the valuse of each resource then check in the aws automation will be done in ur account)
 terraform destroy ( it destroy all which we create ) 
+
+
+* It will show the added 0 files in linux machine because the file already added in windows terminal so you cant see the changes in linux machine (ubuntu)

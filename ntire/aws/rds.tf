@@ -12,7 +12,7 @@ resource "aws_db_instance" "myrds" {
   allocated_storage    = "10"
   parameter_group_name = "default.mysql5.7"
   skip_final_snapshot  = true
-
+  availability_zone    = "us-west-2a"
   tags = {
     Name = "Myrds_db"
   }

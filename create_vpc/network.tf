@@ -26,6 +26,20 @@ resource "aws_internet_gateway" "igw" {
     Name = "igw"
   }
 }
-# Create route 
+
+# Create route table
+resource "aws_route_table" "publicRT" {
+  vpc_id = aws_vpc.vpc_subnet.id
+  route {
+    cidr_block = "0.0.0.0/0"
+    gateway_id = aws_internet_gateway.igw.id
+  }
+  tags = {
+    Name = "route"
+  }
+}
+
+
+
 
 
