@@ -1,6 +1,6 @@
 
 pipeline {
-    agent { lable 'JDK-17' }
+    agent { label 'JDK-17' }
     
     stages { 
         stage ('build') {
