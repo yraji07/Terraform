@@ -26,7 +26,7 @@ provider "aws" {
   region = "us-west-1"
 }
 
-ativity.json file (by using this file we can create the cloudformation )
+ativity.json file (This file can be anywhere in your system by using this file we can create the cloudformation)
 ----------------- 
 {
     "AWSTemplateFormatVersion": "2010-09-09",
@@ -52,6 +52,4 @@ ativity.json file (by using this file we can create the cloudformation )
 ![preview](imgs/Screenshot%202023-03-31%20182907.png)
 
 ![preview](imgs/Screenshot%202023-03-31%20183249.png)
-
-
 
