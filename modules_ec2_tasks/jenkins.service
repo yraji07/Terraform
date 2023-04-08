@@ -1,0 +1,13 @@
+[Unit]
+Description=java spring petclinic
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/
+ExecStart=java -jar spring-petclinic-3.0.0-SNAPSHOT.jar
+Restart=on-failure
+RestartSec=5
+sudo systemctl Restart
+sudo system deamon reload
+
+[Install]
+WantedBy=multi-user.target
